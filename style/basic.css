@@ -32,8 +32,18 @@ button {
   cursor: pointer;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 .container {
   max-width: 1650px;
   margin: 0 auto;
   padding: 0 30px;
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
 }
