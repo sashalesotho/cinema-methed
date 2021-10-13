@@ -54,6 +54,7 @@
   border: none;
   outline: none;
   transition: box-shadow 0.2s;
+  border-radius: 6px;
 }
 
 .header__burger-svg {

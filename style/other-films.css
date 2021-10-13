@@ -26,6 +26,10 @@
   margin-bottom: 160px;
 }
 
+.other-films__item:nth-child(even) {
+  padding-top: 48px;
+}
+
 .other-films__item {
   width: calc(100% * 3 / 12 - 30px);
   text-align: center;
@@ -48,6 +52,13 @@
   border: none;
   display: block;
   margin: 0 auto;
+}
+.other-films__btn:hover {
+  color: var(--color-text);
+}
+.other-films__btn:focus,
+.other-films__btn:active {
+  box-shadow: 0 0 3px 2px var(--color-text);
 }
 
 @media (max-width: 1366px) {
